@@ -1,0 +1,21 @@
+.posts{
+    display: flex;
+    padding: 15px;
+    border: 2px solid teal;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 15px;
+    font-size: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+@media (max-width: 675px) {
+    .posts{
+        width: 90%;
+        margin-left: 5%;
+        margin-top: 2vh;
+        font-size: 4vw;
+        }
+}
+

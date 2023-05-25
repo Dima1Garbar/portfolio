@@ -1,0 +1,53 @@
+.migration_window{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img_of_migration{
+    margin-left: 10%;
+    height: 500px;
+    width: 80%;
+    background-image: url(https://www.webhostingsecretrevealed.net/wp-content/uploads/greengeeks-home-2022.jpg);
+    background-size: 100% 100%;
+    border-radius: 10%;
+}
+
+
+.years{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.text_migration{
+    width: 900px;
+    margin-left: 10%;
+    border-radius: 9%;  
+    font-size: 25px;
+}
+
+.about{
+    width: 85%;
+    margin-top: 10px;
+
+}
+
+@media (max-width: 675px) {
+    .img_of_migration{
+        margin-left: 0;
+        height: 35vh;
+        width: 90%;
+    }
+    .text_migration{
+        width: 100vw;
+        border-radius: 9%;  
+        margin-left: 0;
+        font-size: 5vw;
+    }
+    .about{
+        width: 90%;
+    }
+   
+}

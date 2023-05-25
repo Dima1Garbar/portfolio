@@ -1,0 +1,97 @@
+.get_in_touch{
+    font-size: 60px;
+    margin-top: 65px;
+    display: flex;
+    justify-content: center;
+}
+
+.contacts_info{
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-left: 10%;
+    margin-top: 100px;
+    font-size: 40px;
+}
+
+.blocks{
+    border-radius: 20%;
+    width: 400px;
+    height: 400px;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bi_icons{
+    width: 75px;
+    height: 75px;
+    color: yellowgreen;
+}
+
+
+.circle{
+    width: 125px;
+    height: 125px;
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: relative;
+    bottom: 55px;
+}
+
+.contact_text{
+    color: aliceblue;
+}
+
+.text_number_of_phone{
+    margin-bottom: 35px;
+}
+
+.text_email{
+    margin-bottom: 35px;
+}
+
+.text_address{
+    margin-bottom: 35px;
+}
+
+@media (max-width: 675px) {
+    .get_in_touch{
+        font-size: 12vw;
+        margin-top: 1vh;
+    }
+    .contacts_info{
+        width: 80%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+        margin-left: 10%;
+        margin-top: 5vh;
+        font-size: 8vw;
+    }
+    .blocks{
+        border-radius: 20%;
+        width: 80vw;
+        height: 35vh;
+        background-color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 7vw;
+    }
+    .circle{
+        width: 20vw;
+        height: 10vh;
+        bottom: 45px;
+    }
+    .bi_icons{
+        width: 15vw;
+        height: 5vh;
+    }
+    
+}

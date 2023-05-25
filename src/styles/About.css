@@ -1,0 +1,164 @@
+.about_me_page{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    flex-direction: column;
+    width: 80%;
+    margin-left: 10%;
+
+}
+
+.about_me{
+    font-size: 55px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_body{
+    height: 650px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.information_about{
+    width: 55%;
+}
+
+.greet_about_me{
+    margin-bottom: 55px;
+}
+
+.introduce_about_me{
+    font-size: 25px;
+}
+
+
+.images_abot{
+    width: 40%;
+    height: 100%;
+    background-image: url(https://media.istockphoto.com/id/636316732/photo/funny-british-gentleman-cat.jpg?s=612x612&w=0&k=20&c=pQ9ueVcVmDdOwdDwmD6gfIkwxkvkQk0JRU5cbVT35xk=);
+}
+
+.own_info{
+    margin-top: 50px;
+    width: 600px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 25px;
+    margin-left: 15%;
+    
+}
+
+ul{
+    list-style: none;
+}
+
+ul li::before{
+    content: "\2023";
+    color: red;
+    display: inline-block;
+    width: 15px;
+    margin-left: -1em;
+}
+
+.my_info{
+    color:coral;
+}
+
+.what_i_studied{
+    margin: 50px 0 50px 0;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.about_bi{
+    height: 50px;
+    width: 50px;
+    fill:rgb(65, 10, 60);
+    transform: scale(1.5);
+}
+
+.arrow_button{
+    background: none;
+    border: 0px;
+    cursor: pointer;
+}
+
+.studied{
+    display: flex;
+    justify-content: space-between;
+    flex-direction:row;
+}
+
+.studied_images{
+    display: flex;
+    justify-content: space-between;
+}
+
+.image{
+    width: 150px;
+    height: 150px;
+    margin: 0 0 0 35px;
+    border-radius: 15%;
+}
+
+.about_bi:hover{
+    background: rgb(255, 0, 0);
+    border-radius: 50%;
+    padding: 1px 1px;
+}
+
+@media (max-width: 675px) {
+    .about_me_page{
+        width: 90%;
+        margin-top: 25px;
+    }
+    .about_me{
+        font-size: 9vw;
+        margin-bottom: 35px;
+    }
+    .about_body{
+        height: 100%;
+    }
+    .greet_about_me{
+        font-size: 6vw;
+        margin-bottom: 25px;
+    }
+    .introduce_about_me{
+        font-size: 4vw;
+    }
+    .about_me_page{
+        margin-left: 5%;
+    }
+    .images_abot{
+        width: 50%;
+        height: 30vh;
+    }
+    .own_info{
+        margin-top: 55px;
+        margin-left: 5%;
+        font-size: 3.8vw;
+        width: 85vw;
+    }
+    .what_i_studied{
+        font-size: 5vw;
+        margin: 40px 0 40px 0;
+        position: relative;
+        left: 20vw;
+    }
+    .about_bi{
+        height: 6vh;
+        width: 6vw;
+    }
+    .image{
+        height: 10vh;
+        width: 17vw;
+        margin: 0 0 0 35px;
+    }
+    .bi-arrow-right{
+        margin-left: 10px;
+    }
+}

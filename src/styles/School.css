@@ -1,0 +1,50 @@
+.school_window{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img_of_school{
+    margin-left: 10%;
+    height: 500px;
+    width: 80%;
+    background-image: url(https://letnvk1.in.ua/images/slider/slide1_.jpg);
+    background-size: 100% 100%;
+    border-radius: 20%;
+}
+
+.years{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.text_school{
+    width: 900px;
+    margin-left: 10%;
+    border-radius: 9%;  
+    font-size: 25px;
+}
+
+.about_school{
+    margin-top: 10px;
+    width: 80%;
+}
+.move_to_center{
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 675px) {
+    .img_of_school{
+        margin-left: 0;
+        height: 35vh;
+        width: 90%;
+    }
+    .text_school{
+        width: 120vw;
+        border-radius: 9%;  
+        font-size: 5vw;
+        margin-left: 0;
+    }
+}

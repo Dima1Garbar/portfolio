@@ -1,0 +1,49 @@
+.more_info{
+    padding: 10px 15px;
+    margin-top: 15px;
+    color: yellow;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid yellowgreen;
+    cursor: pointer;
+    border-radius: 30%;
+}
+
+.more_info:hover{
+    background: blue;
+    opacity: 0.2;
+}
+
+.reverse{
+    padding: 10px 15px;
+    margin-top: 15px;
+    color: yellow;
+    font-size: 18px;
+    background: transparent;
+    border: 1px solid yellowgreen;
+    cursor: pointer;
+    border-radius: 30%;
+    transform: rotate(180deg);
+}
+
+.reverse:hover{
+    background: blue;
+    opacity: 0.2;
+}
+
+@media (max-width: 675px) {
+    .more_info{
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 3vw;
+        border-radius: 30%;
+    }
+    .reverse{
+        padding: 5px 10px;
+        margin-top: 10px;
+        font-size: 3vw;
+        border-radius: 30%;
+        transform: rotate(180deg);
+    }
+    
+}

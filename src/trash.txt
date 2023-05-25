@@ -1,0 +1,11 @@
+<div className='welcome_image'>
+      <div className='my_foto'></div>
+      <div className='introduce'>
+        <h2 className='greeting'>Hello, I am Dmytro Garbar</h2>
+        <h1 className='profession'>Web Developer</h1>
+        <div className='introduce_myself'>
+        <b className='from'>I am a new Front-end React Developer based in Ukrain. </b>
+        <b className='goal'>It's my first project, but I am a fast learner and aim to become a professional in my profession</b>
+        </div>
+              </div>
+    </div>

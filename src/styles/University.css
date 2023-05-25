@@ -1,0 +1,53 @@
+.university_window{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.img_of_university{
+    margin-left: 10%;
+    height: 500px;
+    width: 80%;
+    background-image: url(https://photos.wikimapia.org/p/00/07/63/33/39_big.jpg);
+    background-size: 100% 100%;
+    border-radius: 20%;
+}
+
+.years{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+
+.text_university{
+    width: 900px;
+    margin-left: 10%;
+    border-radius: 9%;  
+    font-size: 25px;
+}
+
+.university{
+    margin-top: 10px;
+}
+
+.about{
+    width: 85%;
+}
+
+@media (max-width: 675px) {
+    .img_of_university{
+        margin-left: 0;
+        height: 35vh;
+        width: 90%;
+    }
+    .text_university{
+        width: 108vw;
+        border-radius: 9%;  
+        font-size: 5vw;
+        margin-left: 0;
+    }
+    .about{
+        width: 0;
+    }
+}

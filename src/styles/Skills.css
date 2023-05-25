@@ -1,0 +1,87 @@
+.title_name{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    font-size: 40px;
+}
+
+.block_of_posts{
+    margin-left: 10%;
+    margin-top: 30px;
+    border-radius: 2%;
+    width: 1500px;
+}
+
+.buttons_pages{
+    margin-top: 25px;
+    margin-bottom: 10px;
+    display: flex;
+    padding: 15px;
+    width: 80%;
+    margin-left: 10%;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.page{
+    padding: 10px;
+    border: 1px solid rgb(51, 52, 35);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.dots{
+    padding: 10px;
+    border: 1px solid rgb(51, 52, 35);
+    cursor: pointer;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.page_current{
+    font-size: bold;
+    border: 2px solid orange;
+}
+
+.page:hover{
+    background: rgb(25, 172, 74);
+    opacity: 0.9;
+}
+
+.observ{
+    display: none;
+}
+
+@media (max-width: 675px) {
+    .title_name{
+        margin-top: 3vh;
+        margin-left: 5%;
+        font-size: 5vw;
+    }
+    .buttons_pages{
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+        display: flex;
+        padding: 10px;
+        width: 90%;
+        margin-left: 5%;
+        font-size: 2.5vw;
+        justify-content: center;
+        align-items: center;
+    }
+    .block_of_posts{
+        margin-left: 5%;
+        margin-top: 1vh;
+        border-radius: 2%;
+        width: 90%;
+    }
+    .page{
+        padding: 7px;
+    }
+    .dots{
+        padding: 7px;
+      
+    }
+}
