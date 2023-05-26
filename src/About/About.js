@@ -22,8 +22,8 @@ const about = () => {
             <div className='second_colum'></div>
             <ul>
               <li>Address:<span className='my_info address'> Vinnytsia</span></li>
-              <li>Phone:<span className='my_info phone'> SomeFone</span></li>
-              <li>Email:<span className='my_info email'> SomeEmail</span></li>
+              <li>Phone:<span className='my_info phone'> 380678481446</span></li>
+              <li>Email:<span className='my_info email'> dima.job.qarbar@gmail.com</span></li>
             </ul>
           </div>
           <b className='what_i_studied'>What I studied ?</b>

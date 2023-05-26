@@ -42,6 +42,14 @@ const Skills = () => {
       if (observer.current) observer.current.disconect();
       if (entries[0].isIntersecting && page < totalCount){
         setPage(page +1)
+        if (page >= 4){
+          if (page < totalCount -4){
+            setSelectPages(page +4)
+          }
+          else {
+            setSelectPages(totalCount)
+          }
+        }
       }
     }
     

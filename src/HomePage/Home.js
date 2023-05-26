@@ -5,7 +5,7 @@ import "../styles/HomePage.css"
 const Home = () => {
   return (
    <div className='home_page'>
-      <div className='my_foto'></div>
+      <div className='my_photo'></div>
       <div className='introduce'>
         <h2 className='greeting'>Hello, I am Dmytro Garbar</h2>
         <h1 className='profession'>Web Developer</h1>

@@ -3,6 +3,37 @@ import "../styles/Contact.css"
 
 const Contact = () => {
 
+    useEffect( () => {
+        const bodyElt = document.querySelector("body");
+        if (bodyElt.style.backgroundColor === "aliceblue") {
+            bodyElt.style.color = "black";
+            var elems = document.querySelectorAll("div.blocks");
+            var elems_color = document.querySelectorAll("p.contact_text");
+            document.querySelectorAll("svg.bi-emoji-sunglasses")[0].style.fill = "black"
+            document.querySelectorAll("svg.bi-emoji-sunglasses-fill")[0].style.fill = "black"
+            for ( var i = 0; i < elems.length; i++) {
+                elems[i].style.backgroundColor = "black";
+            }
+            for ( var i = 0; i < elems_color.length; i++) {
+                elems_color[i].style.color = "aliceblue";
+            }
+        }
+        else{
+            bodyElt.style.color = "aliceblue";
+            var elems = document.querySelectorAll("div.blocks");
+            var elems_color = document.querySelectorAll("p.contact_text");
+            document.querySelectorAll("svg.bi-emoji-sunglasses")[0].style.fill = "aliceblue"
+            document.querySelectorAll("svg.bi-emoji-sunglasses-fill")[0].style.fill = "aliceblue"
+            for ( var i = 0; i < elems.length; i++) {
+                elems[i].style.backgroundColor = "aliceblue";
+              }
+            for ( var i = 0; i < elems_color.length; i++) {
+              elems_color[i].style.color = "black";
+            }
+        }
+    }, []
+    )
+
   return (
     <div >
         <p className='get_in_touch'>Get in touch</p>
@@ -24,7 +55,7 @@ const Contact = () => {
                     </svg>
                 </div>
                 <p className={'contact_text text_email'}>Email:</p>
-                <p className={'contact_text my_email'}>New Email for work</p>
+                <p className={'contact_text my_email'}>dima.job.qarbar@gmail.com</p>
             </div>
             <div className='blocks address'>
                 <div className='circle'>
